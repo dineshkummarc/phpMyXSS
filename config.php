@@ -4,7 +4,7 @@
 define ( 'PMX_USERNAME', 'root' );
 
 /**
- * The password(phpass) for phpMyXSS
+ * The password(phpass) for phpMyXSS, default -> 123456
  */
 define ( 'PMX_PASSWORD', '$2a$08$p8fMax0stoVUhkAEKR1SuO35qib6WwyIXEU5czCkTdaYeVAF4OoiK' );
 
@@ -46,7 +46,8 @@ define ( 'PMX_SITENAME', 'phpMyXSS' );
 /**
  * The URL of your site
  */
-define ( 'PMX_SITEURL', 'http://127.0.0.1:8010/' );
+// define ( 'PMX_SITEURL', 'http://127.0.0.1:8010/' );
+define ( 'PMX_SITEURL', 'http://local.rocket.co.in:8081/test1/phpMyXSS/' );
 
 /**
  * For developers
