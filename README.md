@@ -1,8 +1,6 @@
 phpMyXSS
 ========
-
 A XSS Project
-
 
 ### AUTHOR
 [zeng.ambulong@gmail.com](mailto:zeng.ambulong@gmail.com)
@@ -10,8 +8,17 @@ A XSS Project
 ### RELEASE INFORMATION
 *phpMyXSS 1.0*
 
-### SYSTEM REQUIREMENTS
+### Demo
+Project Management
+![Project Management](https://github.com/dineshkummarc/phpMyXSS/blob/master/doc/project-management.png)
+Add Project
+![Add Project](https://github.com/dineshkummarc/phpMyXSS/blob/master/doc/add-project.png)
+Host Management
+![Host Management](https://github.com/dineshkummarc/phpMyXSS/blob/master/doc/host-management.png)
+Module Management
+![Module Management](https://github.com/dineshkummarc/phpMyXSS/blob/master/doc/module-management.png)
 
+### SYSTEM REQUIREMENTS
 PHP 5.3.9 or later; we recommend using the
 latest PHP version whenever possible.
 
