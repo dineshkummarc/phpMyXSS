@@ -34,29 +34,25 @@ If you want to use 'new message alert', you need to config PHPMailer in file `./
 ###Reporting Potential Security Issues
 
 If you have encountered a potential security vulnerability in this project, please report it to us at [zeng.ambulong@gmail.com](mailto:zeng.ambulong@gmail.com). We will work with you to verify the vulnerability and patch it.
-###常见问题
 
-1.安装相关
+###common problem
 
-   把phpmyxss.sql导入数据库并修改./config.php内的数据库连接信息即可
-
-   PMX暂时不支持无多用户支持，如果需要更改用户名和密码需要到config.php修改(默认123456)，密码（PMX_PASSWORD）请自己用phpass生成，或者目录下的genpass.php生成。
-
-   邮件提醒请到./includes/functions.php修改函数pmx_mail()内的配置
+1. Installation related
+    Import phpmyxss.sql into the database and modify the database connection information in ./config.php
+    PMX does not support multi-user support at the moment. If you need to change the user name and password, you need to modify it in config.php (default 123456). Please generate the password (PMX_PASSWORD) by yourself with phpass, or generate it with genpass.php in the directory.
+    Email reminder, please go to ./includes/functions.php to modify the configuration in the function pmx_mail()
    
-2.要了解项目可以看下doc里面的文档的第1～2页
+2. To understand the project, you can read pages 1 to 2 of the document in the doc
 
-3.项目截图在doc后面也有
+3. Project screenshots are also available behind the doc
 
-4.如果有其它问题或者建议可发送邮件询问
+4. If you have other questions or suggestions, you can send an email to ask
 
-###更新
+###Update
 
-   2016年09月25日
-
-      1. 修复无限重定向问题
-
-      2. 添加生成phpass密码脚本，genpass.php
+    September 25, 2016
+       1. Fix infinite redirection problem
+       2. Add a script to generate phpass password, genpass.php
 
 ###Want to contribute?
 
